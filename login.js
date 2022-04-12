@@ -11,7 +11,7 @@ describe('login',()=>{
         cy.wait(5000)
         cy.get('[name="loginfmt"]').type('ext.rauwolfia.mannan@mastery.net')
        cy.get('[id="idSIButton9"]').click()
-       cy.get('[id="i0118"]').type('Bal06204')
+       cy.get('[id="i0118"]').type('password')
         
         cy.get('#menu-button--menu--3').click()
         cy.get('[data-testid="nav-link-add-carrier"]').click()
